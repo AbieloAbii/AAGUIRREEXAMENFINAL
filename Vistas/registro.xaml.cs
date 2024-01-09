@@ -45,5 +45,6 @@ public partial class registro : ContentPage
     private void btnResumen_Clicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new Vistas.resumen(lblUsuario.Text));
+        //terminar
     }
 }
